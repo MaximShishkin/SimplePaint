@@ -1,4 +1,4 @@
-package ru.shishkin.paint;
+package main.java.ru.shishkin.simplePaint;
 
 import java.awt.Color;
 import java.awt.Cursor;
@@ -10,11 +10,11 @@ import javax.swing.JPanel;
 
 public class Panel extends JPanel {
     private Color[] masColor;
-	private int countColor = 0;
-	private int mX = 0, mY = 0;
-	private Boolean flag = false;
+    private int countColor = 0;
+    private int mX = 0, mY = 0;
+    private Boolean flag = false;
 
-    Panel() {
+    public Panel() {
         addMouseListener(new myMouse1());
         addMouseMotionListener(new myMouse2());
 
@@ -68,7 +68,7 @@ public class Panel extends JPanel {
         public void mouseExited(MouseEvent e) {}
     }
 
-	private class myMouse2 implements MouseMotionListener {
+    private class myMouse2 implements MouseMotionListener {
         public void mouseDragged(MouseEvent e) {
             int tX = e.getX();
             int tY = e.getY();
@@ -76,7 +76,7 @@ public class Panel extends JPanel {
             if (tY > 100) {
                 mX = tX;
                 mY = tY;
-				
+
                 flag = true;
 
                 repaint();
