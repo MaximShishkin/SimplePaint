@@ -9,8 +9,5 @@
         <module name="Paint" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Paint" target="15" />
-    </bytecodeTargetLevel>
   </component>
 </project>

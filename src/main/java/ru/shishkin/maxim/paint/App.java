@@ -1,6 +1,6 @@
-package main.java.ru.shishkin.simplePaint;
+package ru.shishkin.maxim.paint;
 
-public class Application {
+public class App {
     public static void main(String[] args) {
         new Frame();
     }

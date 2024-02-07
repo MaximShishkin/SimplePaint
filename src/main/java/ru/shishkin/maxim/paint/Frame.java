@@ -1,4 +1,4 @@
-package main.java.ru.shishkin.simplePaint;
+package ru.shishkin.maxim.paint;
 
 import javax.swing.JFrame;
 

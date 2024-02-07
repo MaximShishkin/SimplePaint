@@ -1,4 +1,4 @@
-package main.java.ru.shishkin.simplePaint;
+package ru.shishkin.maxim.paint;
 
 import java.awt.Color;
 import java.awt.Cursor;
@@ -63,9 +63,14 @@ public class Panel extends JPanel {
             flag = false;
         }
 
-        public void mouseClicked(MouseEvent e) {}
-        public void mouseEntered(MouseEvent e) {}
-        public void mouseExited(MouseEvent e) {}
+        public void mouseClicked(MouseEvent e) {
+        }
+
+        public void mouseEntered(MouseEvent e) {
+        }
+
+        public void mouseExited(MouseEvent e) {
+        }
     }
 
     private class myMouse2 implements MouseMotionListener {
