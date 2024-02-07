@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.shishkin.maxim</groupId>
-    <artifactId>paint</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>Paint</artifactId>
+    <version>1.0</version>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
