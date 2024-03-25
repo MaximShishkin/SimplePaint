@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.shishkin.maxim</groupId>
-    <artifactId>Paint</artifactId>
+    <artifactId>paint</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -31,5 +31,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
